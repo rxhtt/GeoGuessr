@@ -1,4 +1,4 @@
-/* 3-Layer Layout Architecture + Difficulty UI */
+/* 3-Layer Side-Docked Architecture */
 :root {
     --bg-dark: #07111d;
     --card-dark: #0d1a2b;
@@ -29,7 +29,7 @@ html {
 }
 
 .hud {
-    height: 80px;
+    height: 70px;
     background-color: var(--hud-dark);
     border-bottom: 2px solid rgba(255, 255, 255, 0.05);
     display: flex;
@@ -37,7 +37,6 @@ html {
     justify-content: center;
     gap: 48px;
     z-index: 100;
-    padding: 0 40px;
 }
 
 .hud-item {
@@ -49,13 +48,13 @@ html {
     color: #64748b;
     font-weight: 800;
     font-size: 10px;
-    letter-spacing: 0.15em;
-    margin-bottom: 4px;
+    letter-spacing: 0.12em;
+    margin-bottom: 2px;
 }
 
 .hud-item span {
     font-family: 'Outfit', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
     color: var(--blue-accent);
 }
@@ -64,27 +63,28 @@ html {
     color: var(--rose-accent);
 }
 
-/* Difficulty Menu Overlay */
+/* Difficulty Menu */
+/* ... (unchanged) */
 .modal {
     position: fixed;
     inset: 0;
     z-index: 1000;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .modal-content {
-    width: min(500px, 90%);
-    padding: 48px;
+    width: min(440px, 90%);
+    padding: 40px;
     text-align: center;
-    border-radius: 32px;
+    border-radius: 28px;
 }
 
 .logo {
     font-family: 'Outfit', sans-serif;
-    font-size: 42px;
+    font-size: 38px;
     margin-bottom: 12px;
 }
 
@@ -92,53 +92,47 @@ html {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin: 32px 0;
+    margin: 24px 0;
 }
 
 .difficulty-btn {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: white;
-    padding: 24px;
-    border-radius: 16px;
+    padding: 20px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: all 0.3s;
-    text-align: center;
+    transition: all 0.2s;
 }
 
 .difficulty-btn:hover {
     background: var(--blue-accent);
-    transform: translateY(-4px);
-    box-shadow: 0 12px 24px rgba(59, 130, 246, 0.3);
 }
 
 .difficulty-btn .diff-title {
     display: block;
     font-family: 'Outfit', sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-.difficulty-btn small {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-/* Settings Switch Styling */
 .settings-strip {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 24px;
-    border-radius: 16px;
-    font-size: 14px;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-size: 13px;
     font-weight: 600;
+    background: rgba(255, 255, 255, 0.03);
 }
 
+/* Switches */
 .switch {
     position: relative;
     display: inline-block;
-    width: 48px;
-    height: 24px;
+    width: 44px;
+    height: 22px;
 }
 
 .switch input {
@@ -159,8 +153,8 @@ html {
 .slider:before {
     position: absolute;
     content: "";
-    height: 18px;
-    width: 18px;
+    height: 16px;
+    width: 16px;
     left: 3px;
     bottom: 3px;
     background-color: white;
@@ -173,10 +167,10 @@ input:checked+.slider {
 }
 
 input:checked+.slider:before {
-    transform: translateX(24px);
+    transform: translateX(22px);
 }
 
-/* Layer 2: Elastic Map Workspace */
+/* Layer 2: Workspace Mapping */
 #map-container {
     position: relative;
     flex: 1;
@@ -187,88 +181,124 @@ input:checked+.slider:before {
     position: absolute;
     inset: 0;
     z-index: 1;
-    border: none;
 }
 
 #prompt-overlay {
     position: absolute;
     top: 24px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 24px;
     z-index: 100;
-    padding: 16px 40px;
-    text-align: center;
-    border-radius: 24px;
+    padding: 12px 20px;
+    min-width: 180px;
+    border-radius: 12px;
+    pointer-events: none;
+}
+
+#prompt-overlay h2 {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.1em;
 }
 
 .hint-strip {
     background: rgba(255, 255, 255, 0.05);
-    margin-top: 10px;
-    padding: 8px 16px;
-    border-radius: 12px;
-    font-size: 12px;
+    margin-top: 6px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 11px;
     font-weight: 700;
 }
 
-.hint-tag {
-    color: var(--emerald-accent);
-    margin-right: 8px;
-}
-
-/* Layer 3: Floating Cinematic Card (Result Panel) */
+/* Layer 3: Side Intelligence Result Card */
 .result-panel {
     position: absolute;
     bottom: 24px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(500px, 92%);
+    right: 24px;
+    width: 320px;
     z-index: 500;
-    padding: 32px;
-    border-radius: 28px;
-    background: rgba(13, 26, 43, 0.92);
-    backdrop-filter: blur(24px);
+    padding: 24px;
+    border-radius: 20px;
+    background: rgba(13, 26, 43, 0.95);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 16px;
 }
 
 .result-info h2 {
     font-family: 'Outfit', sans-serif;
-    font-size: 32px;
-    margin: 0;
+    font-size: 22px;
     color: var(--blue-accent);
+    margin: 0;
 }
 
 #result-dist {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     color: white;
-    margin: 8px 0;
+    margin: 0;
 }
 
 .learning-info {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 16px;
-    border-radius: 16px;
-    border-left: 4px solid var(--blue-accent);
-}
-
-.learning-info p {
-    margin: 0;
+    font-size: 13px;
     font-style: italic;
-    color: #cbd5e1;
-    line-height: 1.5;
-    font-size: 14px;
+    color: #94a3b8;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 3px solid var(--blue-accent);
 }
 
-/* Animations & Glassmorphism */
+.result-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+/* Buttons */
+.btn-primary {
+    background: var(--blue-accent);
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    flex: 2;
+}
+
+.btn-secondary {
+    background: var(--emerald-accent);
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    flex: 2;
+}
+
+.btn-ghost {
+    background: transparent;
+    color: #64748b;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+}
+
 .glass {
-    background: rgba(13, 26, 43, 0.9);
-    backdrop-filter: blur(24px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 32px 64px rgba(0, 0, 0, 0.5);
+    background: rgba(13, 26, 43, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .accent {
@@ -279,66 +309,25 @@ input:checked+.slider:before {
     display: none !important;
 }
 
-.btn-primary {
-    background: var(--blue-accent);
-    color: white;
-    font-weight: 800;
-    padding: 18px 32px;
-    border-radius: 16px;
-    border: none;
-    cursor: pointer;
-    flex: 1;
-    transition: all 0.2s;
-}
-
-.btn-primary:active {
-    transform: scale(0.96);
-}
-
-.btn-primary:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-}
-
-.btn-secondary {
-    background: var(--emerald-accent);
-    color: white;
-    font-weight: 800;
-    padding: 18px 32px;
-    border-radius: 16px;
-    border: none;
-    cursor: pointer;
-    flex: 1;
-}
-
-.btn-ghost {
-    background: transparent;
-    color: #94a3b8;
-    font-weight: 600;
-    padding: 18px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Map Fixes */
-.leaflet-container img {
-    max-width: none !important;
-    max-height: none !important;
-}
-
-/* Cinematic Result Animation */
+/* Cinematic Transitions */
 .result-panel:not(.hidden) {
     animation: slideUp 0.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
 }
 
 @keyframes slideUp {
     from {
-        transform: translate(-50%, 40px);
+        transform: translateY(20px);
         opacity: 0;
     }
 
     to {
-        transform: translate(-50%, 0);
+        transform: translateY(0);
         opacity: 1;
     }
+}
+
+/* Map specific */
+.leaflet-container img {
+    max-width: none !important;
+    max-height: none !important;
 }

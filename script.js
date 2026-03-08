@@ -113,7 +113,7 @@ function startRound() {
     ui.round.innerText = `${round}/${MAX_ROUNDS}`;
 
     currentCity = sessionPool[Math.floor(Math.random() * sessionPool.length)];
-    ui.cityPrompt.innerText = `SEARCH: ${currentCity.city.toUpperCase()}`;
+    ui.cityPrompt.innerText = currentCity.city.toUpperCase();
 
     // Hint System Logic
     ui.hintPanel.classList.add("hidden");
