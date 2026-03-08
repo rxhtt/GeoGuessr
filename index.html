@@ -4,31 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>GeoGuess India - Premium Simulation</title>
+    <title>GeoGuess India - Intelligence Simulation</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@800&display=swap"
         rel="stylesheet">
 
-    <!-- Cloudflare CDN: Faster & More Reliable -->
+    <!-- Leaflet Infrastructure -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
-        integrity="sha512-Zcn69ar08dxMwjICD88qfEd42RE1W9P9fRDe95vS749tFhJ7J00O1m9qf9J+6c1z+Q+w=="
         crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"
-        integrity="sha512-H9Yy9y9p7L2Y2y9f7O+J+J+J+J+J+J+H9Yy9y9p7L2Y2y9f7O+J+J+J+J+J+J+H9Yy9y9p7L2Y2y9f7O+J+J+J+J+J+J+H9Yy9y9p7L2Y2y9f7O+J+J+J+J+J+J+"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="game">
-        <!-- Layer 1: Top HUD Stats -->
+        <!-- New Difficulty Menu Overlay -->
+        <div id="difficulty-screen" class="modal">
+            <div class="modal-content glass">
+                <h1 class="logo">GEO<span class="accent">PRO</span> INDIA</h1>
+                <p>Select Geographic Intelligence Challenge:</p>
+                <div class="difficulty-grid">
+                    <button onclick="startGame('easy')" class="difficulty-btn">
+                        <span class="diff-title">EASY</span>
+                        <small>Major Tier-1 Metros</small>
+                    </button>
+                    <button onclick="startGame('medium')" class="difficulty-btn">
+                        <span class="diff-title">MEDIUM</span>
+                        <small>Cities & Tier-2 Hubs</small>
+                    </button>
+                    <button onclick="startGame('hard')" class="difficulty-btn">
+                        <span class="diff-title">HARD</span>
+                        <small>Unknown Coordinates</small>
+                    </button>
+                </div>
+
+                <div class="settings-strip glass">
+                    <div class="setting-item">
+                        <span>Blackout Protocol (No Labels)</span>
+                        <label class="switch">
+                            <input type="checkbox" id="labelToggle">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Layer 1: Top HUD -->
         <header class="hud">
             <div class="hud-item"><small>ROUND</small><span id="round">1/5</span></div>
             <div class="hud-item"><small>SCORE</small><span id="score">0</span></div>
             <div class="hud-item timer-highlight"><small>TIME</small><span id="timer">20s</span></div>
+            <div id="streak-badge" class="badge-hud hidden">🔥 <span id="streak">0</span></div>
         </header>
 
         <!-- Layer 2: Elastic Map Workspace -->
@@ -37,19 +67,17 @@
 
             <div id="prompt-overlay" class="glass">
                 <h2 id="city-prompt">LOCATING...</h2>
-                <div id="hint-container" class="hidden">
-                    <span class="hint-tag">HINT:</span> <span id="hint-text"></span>
+                <div id="hint-panel" class="hint-strip hidden">
+                    <span class="hint-tag">HINT:</span> <span id="hint-text">Waiting...</span>
                 </div>
-                <div id="streak-badge" class="badge hidden">🔥 <span id="streak">0</span></div>
             </div>
         </div>
 
-        <!-- Layer 3: Floating Cinematic Card (Hidden by Default) -->
+        <!-- Layer 3: Floating Cinematic Result Card -->
         <div id="result-panel" class="result-panel hidden">
             <div class="result-info">
                 <h2 id="result-city">City Name</h2>
                 <p id="result-dist">Distance: 0 km (+0)</p>
-                <!-- Intelligence Panel -->
                 <div id="panel-fact-container" class="learning-info">
                     <p id="panel-fact-1">Interesting fact about this location...</p>
                 </div>
@@ -65,12 +93,12 @@
         <!-- Game Over Modal -->
         <div id="game-over-modal" class="modal hidden">
             <div class="modal-content glass">
-                <h2>SURVEY COMPLETE</h2>
+                <h2>GEOSPATIAL DEBRIEF</h2>
                 <div class="analytics-grid">
                     <div class="analytic-item"><small>TOTAL SCORE</small><span id="final-score">0</span></div>
-                    <div class="analytic-item"><small>ACCURACY</small><span id="final-accuracy">0%</span></div>
+                    <div class="analytic-item"><small>SURVEY ACCURACY</small><span id="final-accuracy">0%</span></div>
                 </div>
-                <button onclick="resetToMenu()" class="btn-primary">INITIATE NEW TEST</button>
+                <button onclick="resetToMenu()" class="btn-primary">INITIATE RE-TEST</button>
             </div>
         </div>
     </div>

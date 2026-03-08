@@ -1,10 +1,11 @@
-/* 3-Layer Layout Architecture */
+/* 3-Layer Layout Architecture + Difficulty UI */
 :root {
     --bg-dark: #07111d;
     --card-dark: #0d1a2b;
     --hud-dark: #0b1523;
     --blue-accent: #3b82f6;
     --emerald-accent: #1fc98e;
+    --rose-accent: #f43f5e;
 }
 
 body,
@@ -19,7 +20,7 @@ html {
     color: white;
 }
 
-/* Layer 1: Top HUD (Persistent) */
+/* Layer 1: Top HUD Stats */
 .game {
     display: flex;
     flex-direction: column;
@@ -30,12 +31,13 @@ html {
 .hud {
     height: 80px;
     background-color: var(--hud-dark);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 48px;
     z-index: 100;
+    padding: 0 40px;
 }
 
 .hud-item {
@@ -45,7 +47,7 @@ html {
 .hud-item small {
     display: block;
     color: #64748b;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 10px;
     letter-spacing: 0.15em;
     margin-bottom: 4px;
@@ -59,22 +61,133 @@ html {
 }
 
 .timer-highlight span {
-    color: #f43f5e;
+    color: var(--rose-accent);
+}
+
+/* Difficulty Menu Overlay */
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    width: min(500px, 90%);
+    padding: 48px;
+    text-align: center;
+    border-radius: 32px;
+}
+
+.logo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.difficulty-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 32px 0;
+}
+
+.difficulty-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 24px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.difficulty-btn:hover {
+    background: var(--blue-accent);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(59, 130, 246, 0.3);
+}
+
+.difficulty-btn .diff-title {
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.difficulty-btn small {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Settings Switch Styling */
+.settings-strip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #334155;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: var(--blue-accent);
+}
+
+input:checked+.slider:before {
+    transform: translateX(24px);
 }
 
 /* Layer 2: Elastic Map Workspace */
 #map-container {
     position: relative;
     flex: 1;
-    /* Occupies 100% of the remaining viewport */
     width: 100%;
-    background: #111;
 }
 
 #map {
     position: absolute;
     inset: 0;
     z-index: 1;
+    border: none;
 }
 
 #prompt-overlay {
@@ -82,17 +195,24 @@ html {
     top: 24px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 5;
-    padding: 16px 32px;
+    z-index: 100;
+    padding: 16px 40px;
     text-align: center;
-    min-width: 280px;
+    border-radius: 24px;
 }
 
-#prompt-overlay h2 {
-    margin: 0;
-    font-family: 'Outfit', sans-serif;
-    font-size: 24px;
-    letter-spacing: -0.02em;
+.hint-strip {
+    background: rgba(255, 255, 255, 0.05);
+    margin-top: 10px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.hint-tag {
+    color: var(--emerald-accent);
+    margin-right: 8px;
 }
 
 /* Layer 3: Floating Cinematic Card (Result Panel) */
@@ -102,67 +222,33 @@ html {
     left: 50%;
     transform: translateX(-50%);
     width: min(500px, 92%);
-    background: rgba(13, 26, 43, 0.95);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 24px;
-    padding: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    z-index: 100;
-    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6);
+    z-index: 500;
 }
 
-/* Slide up animation */
-.result-panel:not(.hidden) {
-    animation: slideUp 0.35s ease-out forwards;
-}
-
-@keyframes slideUp {
-    from {
-        transform: translate(-50%, 60px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translate(-50%, 0);
-        opacity: 1;
-    }
-}
-
-.result-info h3 {
-    margin: 0 0 8px 0;
+.result-info h2 {
     font-family: 'Outfit', sans-serif;
     font-size: 28px;
-    color: #fff;
+    margin: 0;
 }
 
-.learning-info {
-    font-style: italic;
-    color: #cbd5e1;
-    font-size: 14px;
-    margin-top: 12px;
-    line-height: 1.5;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 12px;
-    border-radius: 12px;
+/* Animations & Glassmorphism */
+.glass {
+    background: rgba(13, 26, 43, 0.9);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 32px 64px rgba(0, 0, 0, 0.5);
 }
 
-.result-actions {
-    display: flex;
-    gap: 12px;
+.accent {
+    color: var(--blue-accent);
 }
 
-/* Mobile-Friendly Stacking */
-@media (max-width: 600px) {
-    .result-actions {
-        flex-direction: column;
-    }
+.hidden {
+    display: none !important;
 }
 
 .btn-primary {
-    background-color: var(--blue-accent);
+    background: var(--blue-accent);
     color: white;
     font-weight: 800;
     padding: 18px 32px;
@@ -173,13 +259,17 @@ html {
     transition: all 0.2s;
 }
 
+.btn-primary:active {
+    transform: scale(0.96);
+}
+
 .btn-primary:disabled {
     opacity: 0.4;
     cursor: not-allowed;
 }
 
 .btn-secondary {
-    background-color: var(--emerald-accent);
+    background: var(--emerald-accent);
     color: white;
     font-weight: 800;
     padding: 18px 32px;
@@ -198,20 +288,25 @@ html {
     cursor: pointer;
 }
 
-.glass {
-    background: rgba(13, 26, 43, 0.85);
-    backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-}
-
-.hidden {
-    display: none !important;
-}
-
-/* Custom Overrides for Leaflet on Dark Mode */
+/* Map Fixes */
 .leaflet-container img {
     max-width: none !important;
     max-height: none !important;
+}
+
+/* Cinematic Result Animation */
+.result-panel:not(.hidden) {
+    animation: slideUp 0.4s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translate(-50%, 40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
 }

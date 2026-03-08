@@ -1,0 +1,3002 @@
+[
+    {
+        "city": "Bamboo Flat",
+        "state": "Andaman and Nicobar Islands",
+        "lat": 11.7,
+        "lon": 92.71667
+    },
+    {
+        "city": "Nicobar",
+        "state": "Andaman and Nicobar Islands",
+        "lat": 7.03002,
+        "lon": 93.79028
+    },
+    {
+        "city": "Port Blair",
+        "state": "Andaman and Nicobar Islands",
+        "lat": 11.66613,
+        "lon": 92.74635
+    },
+    {
+        "city": "South Andaman",
+        "state": "Andaman and Nicobar Islands",
+        "lat": 10.75776,
+        "lon": 92.52136
+    },
+    {
+        "city": "Addanki",
+        "state": "Andhra Pradesh",
+        "lat": 15.81061,
+        "lon": 79.97338
+    },
+    {
+        "city": "Adoni",
+        "state": "Andhra Pradesh",
+        "lat": 15.62788,
+        "lon": 77.27495
+    },
+    {
+        "city": "Akasahebpet",
+        "state": "Andhra Pradesh",
+        "lat": 17.50455,
+        "lon": 82.56597
+    },
+    {
+        "city": "Akividu",
+        "state": "Andhra Pradesh",
+        "lat": 16.58225,
+        "lon": 81.38112
+    },
+    {
+        "city": "Akkarampalle",
+        "state": "Andhra Pradesh",
+        "lat": 13.65,
+        "lon": 79.42
+    },
+    {
+        "city": "Amalapuram",
+        "state": "Andhra Pradesh",
+        "lat": 16.57868,
+        "lon": 82.00609
+    },
+    {
+        "city": "Amudalavalasa",
+        "state": "Andhra Pradesh",
+        "lat": 18.41025,
+        "lon": 83.90295
+    },
+    {
+        "city": "Anakapalle",
+        "state": "Andhra Pradesh",
+        "lat": 17.69134,
+        "lon": 83.00395
+    },
+    {
+        "city": "Anantapur",
+        "state": "Andhra Pradesh",
+        "lat": 14.55,
+        "lon": 77.41667
+    },
+    {
+        "city": "Atmakur",
+        "state": "Andhra Pradesh",
+        "lat": 15.88109,
+        "lon": 78.58704
+    },
+    {
+        "city": "Attili",
+        "state": "Andhra Pradesh",
+        "lat": 16.7,
+        "lon": 81.6
+    },
+    {
+        "city": "Avanigadda",
+        "state": "Andhra Pradesh",
+        "lat": 16.02148,
+        "lon": 80.91808
+    },
+    {
+        "city": "Badvel",
+        "state": "Andhra Pradesh",
+        "lat": 14.7451,
+        "lon": 79.06288
+    },
+    {
+        "city": "Banganapalle",
+        "state": "Andhra Pradesh",
+        "lat": 15.31771,
+        "lon": 78.22669
+    },
+    {
+        "city": "Bapatla",
+        "state": "Andhra Pradesh",
+        "lat": 15.90422,
+        "lon": 80.46743
+    },
+    {
+        "city": "Betamcherla",
+        "state": "Andhra Pradesh",
+        "lat": 15.45144,
+        "lon": 78.14797
+    },
+    {
+        "city": "Bhattiprolu",
+        "state": "Andhra Pradesh",
+        "lat": 16.1026,
+        "lon": 80.78074
+    },
+    {
+        "city": "Bhimavaram",
+        "state": "Andhra Pradesh",
+        "lat": 16.54078,
+        "lon": 81.52322
+    },
+    {
+        "city": "Bhimunipatnam",
+        "state": "Andhra Pradesh",
+        "lat": 17.89017,
+        "lon": 83.45203
+    },
+    {
+        "city": "Bobbili",
+        "state": "Andhra Pradesh",
+        "lat": 18.57366,
+        "lon": 83.35925
+    },
+    {
+        "city": "Challapalle",
+        "state": "Andhra Pradesh",
+        "lat": 16.11756,
+        "lon": 80.93139
+    },
+    {
+        "city": "Chemmumiahpet",
+        "state": "Andhra Pradesh",
+        "lat": 15.89794,
+        "lon": 79.32129
+    },
+    {
+        "city": "Chilakalurupet",
+        "state": "Andhra Pradesh",
+        "lat": 16.08987,
+        "lon": 80.16705
+    },
+    {
+        "city": "Chinnachowk",
+        "state": "Andhra Pradesh",
+        "lat": 14.47516,
+        "lon": 78.8354
+    },
+    {
+        "city": "Chipurupalle",
+        "state": "Andhra Pradesh",
+        "lat": 18.31142,
+        "lon": 83.56846
+    },
+    {
+        "city": "Chirala",
+        "state": "Andhra Pradesh",
+        "lat": 15.82385,
+        "lon": 80.35219
+    },
+    {
+        "city": "Chittoor",
+        "state": "Andhra Pradesh",
+        "lat": 13.41667,
+        "lon": 79.0
+    },
+    {
+        "city": "Chodavaram",
+        "state": "Andhra Pradesh",
+        "lat": 17.82884,
+        "lon": 82.93526
+    },
+    {
+        "city": "Cuddapah",
+        "state": "Andhra Pradesh",
+        "lat": 14.41667,
+        "lon": 78.75
+    },
+    {
+        "city": "Cumbum",
+        "state": "Andhra Pradesh",
+        "lat": 15.58171,
+        "lon": 79.11059
+    },
+    {
+        "city": "Darsi",
+        "state": "Andhra Pradesh",
+        "lat": 15.76978,
+        "lon": 79.67939
+    },
+    {
+        "city": "Dharmavaram",
+        "state": "Andhra Pradesh",
+        "lat": 14.41435,
+        "lon": 77.72035
+    },
+    {
+        "city": "Dhone",
+        "state": "Andhra Pradesh",
+        "lat": 15.3952,
+        "lon": 77.8715
+    },
+    {
+        "city": "Diguvametta",
+        "state": "Andhra Pradesh",
+        "lat": 15.39507,
+        "lon": 78.8293
+    },
+    {
+        "city": "East Godavari",
+        "state": "Andhra Pradesh",
+        "lat": 17.83333,
+        "lon": 81.83333
+    },
+    {
+        "city": "Elamanchili",
+        "state": "Andhra Pradesh",
+        "lat": 17.54907,
+        "lon": 82.85749
+    },
+    {
+        "city": "Ellore",
+        "state": "Andhra Pradesh",
+        "lat": 16.71311,
+        "lon": 81.10437
+    },
+    {
+        "city": "Emmiganur",
+        "state": "Andhra Pradesh",
+        "lat": 15.77203,
+        "lon": 77.48345
+    },
+    {
+        "city": "Erraguntla",
+        "state": "Andhra Pradesh",
+        "lat": 14.63853,
+        "lon": 78.53974
+    },
+    {
+        "city": "Etikoppaka",
+        "state": "Andhra Pradesh",
+        "lat": 17.5,
+        "lon": 82.73333
+    },
+    {
+        "city": "Gajuwaka",
+        "state": "Andhra Pradesh",
+        "lat": 17.7,
+        "lon": 83.21667
+    },
+    {
+        "city": "Ganguvada",
+        "state": "Andhra Pradesh",
+        "lat": 18.66667,
+        "lon": 84.11667
+    },
+    {
+        "city": "Gannavaram",
+        "state": "Andhra Pradesh",
+        "lat": 16.54092,
+        "lon": 80.80213
+    },
+    {
+        "city": "Giddalur",
+        "state": "Andhra Pradesh",
+        "lat": 15.37439,
+        "lon": 78.92609
+    },
+    {
+        "city": "Gokavaram",
+        "state": "Andhra Pradesh",
+        "lat": 17.25823,
+        "lon": 81.84985
+    },
+    {
+        "city": "Gorantla",
+        "state": "Andhra Pradesh",
+        "lat": 13.98411,
+        "lon": 77.77224
+    },
+    {
+        "city": "GovindapuramChilakaluripetGuntur",
+        "state": "Andhra Pradesh",
+        "lat": 16.15477,
+        "lon": 80.10279
+    },
+    {
+        "city": "Gudivada",
+        "state": "Andhra Pradesh",
+        "lat": 16.43547,
+        "lon": 80.99555
+    },
+    {
+        "city": "Gudlavalleru",
+        "state": "Andhra Pradesh",
+        "lat": 16.35,
+        "lon": 81.05
+    },
+    {
+        "city": "Gudur",
+        "state": "Andhra Pradesh",
+        "lat": 14.15093,
+        "lon": 79.8521
+    },
+    {
+        "city": "Guntakal Junction",
+        "state": "Andhra Pradesh",
+        "lat": 15.17112,
+        "lon": 77.36244
+    },
+    {
+        "city": "Guntur",
+        "state": "Andhra Pradesh",
+        "lat": 16.29974,
+        "lon": 80.45729
+    },
+    {
+        "city": "Hindupur",
+        "state": "Andhra Pradesh",
+        "lat": 13.82807,
+        "lon": 77.49143
+    },
+    {
+        "city": "Ichchapuram",
+        "state": "Andhra Pradesh",
+        "lat": 19.11393,
+        "lon": 84.68721
+    },
+    {
+        "city": "Jaggayyapeta",
+        "state": "Andhra Pradesh",
+        "lat": 16.8938,
+        "lon": 80.09807
+    },
+    {
+        "city": "Jammalamadugu",
+        "state": "Andhra Pradesh",
+        "lat": 14.84677,
+        "lon": 78.38314
+    },
+    {
+        "city": "Kadiri",
+        "state": "Andhra Pradesh",
+        "lat": 14.11168,
+        "lon": 78.15982
+    },
+    {
+        "city": "Kaikalur",
+        "state": "Andhra Pradesh",
+        "lat": 16.55154,
+        "lon": 81.214
+    },
+    {
+        "city": "Kakinada",
+        "state": "Andhra Pradesh",
+        "lat": 16.96036,
+        "lon": 82.23809
+    },
+    {
+        "city": "Kalyandurg",
+        "state": "Andhra Pradesh",
+        "lat": 14.54519,
+        "lon": 77.10552
+    },
+    {
+        "city": "Kamalapuram",
+        "state": "Andhra Pradesh",
+        "lat": 14.5983,
+        "lon": 78.66948
+    },
+    {
+        "city": "Kandukur",
+        "state": "Andhra Pradesh",
+        "lat": 15.21542,
+        "lon": 79.9039
+    },
+    {
+        "city": "Kanigiri",
+        "state": "Andhra Pradesh",
+        "lat": 15.40555,
+        "lon": 79.50694
+    },
+    {
+        "city": "Kankipadu",
+        "state": "Andhra Pradesh",
+        "lat": 16.4353,
+        "lon": 80.76715
+    },
+    {
+        "city": "Kanuru",
+        "state": "Andhra Pradesh",
+        "lat": 16.28584,
+        "lon": 81.25464
+    },
+    {
+        "city": "Kavali",
+        "state": "Andhra Pradesh",
+        "lat": 14.9163,
+        "lon": 79.99449
+    },
+    {
+        "city": "Kolanukonda",
+        "state": "Andhra Pradesh",
+        "lat": 16.45392,
+        "lon": 80.61046
+    },
+    {
+        "city": "Kondapalle",
+        "state": "Andhra Pradesh",
+        "lat": 16.61989,
+        "lon": 80.54244
+    },
+    {
+        "city": "Korukollu",
+        "state": "Andhra Pradesh",
+        "lat": 16.5,
+        "lon": 81.25
+    },
+    {
+        "city": "Kosigi",
+        "state": "Andhra Pradesh",
+        "lat": 15.8551,
+        "lon": 77.24463
+    },
+    {
+        "city": "Kovvur",
+        "state": "Andhra Pradesh",
+        "lat": 17.0162,
+        "lon": 81.72934
+    },
+    {
+        "city": "Krishna",
+        "state": "Andhra Pradesh",
+        "lat": 16.66667,
+        "lon": 81.0
+    },
+    {
+        "city": "Kuppam",
+        "state": "Andhra Pradesh",
+        "lat": 12.74931,
+        "lon": 78.34189
+    },
+    {
+        "city": "Kurnool",
+        "state": "Andhra Pradesh",
+        "lat": 15.58333,
+        "lon": 78.33333
+    },
+    {
+        "city": "Macherla",
+        "state": "Andhra Pradesh",
+        "lat": 16.47635,
+        "lon": 79.43533
+    },
+    {
+        "city": "Machilipatnam",
+        "state": "Andhra Pradesh",
+        "lat": 16.18747,
+        "lon": 81.13888
+    },
+    {
+        "city": "Madanapalle",
+        "state": "Andhra Pradesh",
+        "lat": 13.5503,
+        "lon": 78.50288
+    },
+    {
+        "city": "Madugula",
+        "state": "Andhra Pradesh",
+        "lat": 17.91589,
+        "lon": 82.81578
+    },
+    {
+        "city": "Mandapeta",
+        "state": "Andhra Pradesh",
+        "lat": 16.86254,
+        "lon": 81.92921
+    },
+    {
+        "city": "Mandasa",
+        "state": "Andhra Pradesh",
+        "lat": 18.8683,
+        "lon": 84.46296
+    },
+    {
+        "city": "Mangalagiri",
+        "state": "Andhra Pradesh",
+        "lat": 16.43083,
+        "lon": 80.56815
+    },
+    {
+        "city": "Markapur",
+        "state": "Andhra Pradesh",
+        "lat": 15.73534,
+        "lon": 79.26848
+    },
+    {
+        "city": "Nagari",
+        "state": "Andhra Pradesh",
+        "lat": 13.32139,
+        "lon": 79.58557
+    },
+    {
+        "city": "Nagireddipalli",
+        "state": "Andhra Pradesh",
+        "lat": 14.27005,
+        "lon": 79.10131
+    },
+    {
+        "city": "Nandigama",
+        "state": "Andhra Pradesh",
+        "lat": 16.7717,
+        "lon": 80.28596
+    },
+    {
+        "city": "Nandikotkur",
+        "state": "Andhra Pradesh",
+        "lat": 15.85668,
+        "lon": 78.26569
+    },
+    {
+        "city": "Nandyal",
+        "state": "Andhra Pradesh",
+        "lat": 15.47799,
+        "lon": 78.4836
+    },
+    {
+        "city": "Narasannapeta",
+        "state": "Andhra Pradesh",
+        "lat": 18.41428,
+        "lon": 84.04463
+    },
+    {
+        "city": "Narasapur",
+        "state": "Andhra Pradesh",
+        "lat": 16.43425,
+        "lon": 81.69845
+    },
+    {
+        "city": "Narasaraopet",
+        "state": "Andhra Pradesh",
+        "lat": 16.23488,
+        "lon": 80.04927
+    },
+    {
+        "city": "Narasingapuram",
+        "state": "Andhra Pradesh",
+        "lat": 13.60759,
+        "lon": 79.31652
+    },
+    {
+        "city": "Narayanavanam",
+        "state": "Andhra Pradesh",
+        "lat": 13.42565,
+        "lon": 79.58881
+    },
+    {
+        "city": "Narsipatnam",
+        "state": "Andhra Pradesh",
+        "lat": 17.66709,
+        "lon": 82.61245
+    },
+    {
+        "city": "Nayudupet",
+        "state": "Andhra Pradesh",
+        "lat": 13.90742,
+        "lon": 79.89465
+    },
+    {
+        "city": "Nellore",
+        "state": "Andhra Pradesh",
+        "lat": 14.08333,
+        "lon": 79.58333
+    },
+    {
+        "city": "Nidadavole",
+        "state": "Andhra Pradesh",
+        "lat": 16.90572,
+        "lon": 81.67222
+    },
+    {
+        "city": "Nuzvid",
+        "state": "Andhra Pradesh",
+        "lat": 16.78854,
+        "lon": 80.84593
+    },
+    {
+        "city": "Ongole",
+        "state": "Andhra Pradesh",
+        "lat": 15.50357,
+        "lon": 80.04454
+    },
+    {
+        "city": "Pakala",
+        "state": "Andhra Pradesh",
+        "lat": 13.44903,
+        "lon": 79.11493
+    },
+    {
+        "city": "Palakollu",
+        "state": "Andhra Pradesh",
+        "lat": 16.5167,
+        "lon": 81.73
+    },
+    {
+        "city": "Palasa",
+        "state": "Andhra Pradesh",
+        "lat": 18.77257,
+        "lon": 84.41012
+    },
+    {
+        "city": "Palkonda",
+        "state": "Andhra Pradesh",
+        "lat": 18.60374,
+        "lon": 83.75568
+    },
+    {
+        "city": "Pallevada",
+        "state": "Andhra Pradesh",
+        "lat": 16.5779,
+        "lon": 81.29463
+    },
+    {
+        "city": "Palmaner",
+        "state": "Andhra Pradesh",
+        "lat": 13.2,
+        "lon": 78.74725
+    },
+    {
+        "city": "Parlakimidi",
+        "state": "Andhra Pradesh",
+        "lat": 18.78113,
+        "lon": 84.08836
+    },
+    {
+        "city": "Parvatipuram",
+        "state": "Andhra Pradesh",
+        "lat": 18.78392,
+        "lon": 83.42569
+    },
+    {
+        "city": "Pavuluru",
+        "state": "Andhra Pradesh",
+        "lat": 15.85292,
+        "lon": 80.16468
+    },
+    {
+        "city": "Pedana",
+        "state": "Andhra Pradesh",
+        "lat": 16.25582,
+        "lon": 81.14378
+    },
+    {
+        "city": "pedda nakkalapalem",
+        "state": "Andhra Pradesh",
+        "lat": 15.8668,
+        "lon": 80.16202
+    },
+    {
+        "city": "Peddapuram",
+        "state": "Andhra Pradesh",
+        "lat": 17.07701,
+        "lon": 82.13836
+    },
+    {
+        "city": "Penugonda",
+        "state": "Andhra Pradesh",
+        "lat": 16.65363,
+        "lon": 81.7455
+    },
+    {
+        "city": "Penukonda",
+        "state": "Andhra Pradesh",
+        "lat": 14.08286,
+        "lon": 77.59473
+    },
+    {
+        "city": "Phirangipuram",
+        "state": "Andhra Pradesh",
+        "lat": 16.29078,
+        "lon": 80.26233
+    },
+    {
+        "city": "Pippara",
+        "state": "Andhra Pradesh",
+        "lat": 16.71667,
+        "lon": 81.55
+    },
+    {
+        "city": "Pithapuram",
+        "state": "Andhra Pradesh",
+        "lat": 17.1168,
+        "lon": 82.25284
+    },
+    {
+        "city": "Polavaram",
+        "state": "Andhra Pradesh",
+        "lat": 17.24754,
+        "lon": 81.64372
+    },
+    {
+        "city": "Ponnur",
+        "state": "Andhra Pradesh",
+        "lat": 16.07114,
+        "lon": 80.54944
+    },
+    {
+        "city": "Ponnuru",
+        "state": "Andhra Pradesh",
+        "lat": 16.06547,
+        "lon": 80.55203
+    },
+    {
+        "city": "Prakasam",
+        "state": "Andhra Pradesh",
+        "lat": 15.5,
+        "lon": 79.5
+    },
+    {
+        "city": "Proddatur",
+        "state": "Andhra Pradesh",
+        "lat": 14.7502,
+        "lon": 78.54813
+    },
+    {
+        "city": "Pulivendla",
+        "state": "Andhra Pradesh",
+        "lat": 14.42139,
+        "lon": 78.22502
+    },
+    {
+        "city": "Punganuru",
+        "state": "Andhra Pradesh",
+        "lat": 13.36672,
+        "lon": 78.57186
+    },
+    {
+        "city": "Puttaparthi",
+        "state": "Andhra Pradesh",
+        "lat": 14.1652,
+        "lon": 77.8117
+    },
+    {
+        "city": "Puttur",
+        "state": "Andhra Pradesh",
+        "lat": 13.44189,
+        "lon": 79.55314
+    },
+    {
+        "city": "Rajahmundry",
+        "state": "Andhra Pradesh",
+        "lat": 17.00517,
+        "lon": 81.77784
+    },
+    {
+        "city": "Ramachandrapuram",
+        "state": "Andhra Pradesh",
+        "lat": 16.83636,
+        "lon": 82.02871
+    },
+    {
+        "city": "Ramanayyapeta",
+        "state": "Andhra Pradesh",
+        "lat": 16.94516,
+        "lon": 82.2385
+    },
+    {
+        "city": "Ramapuram",
+        "state": "Andhra Pradesh",
+        "lat": 15.28749,
+        "lon": 77.86722
+    },
+    {
+        "city": "Rampachodavaram",
+        "state": "Andhra Pradesh",
+        "lat": 17.44088,
+        "lon": 81.77558
+    },
+    {
+        "city": "Rayachoti",
+        "state": "Andhra Pradesh",
+        "lat": 14.05723,
+        "lon": 78.75056
+    },
+    {
+        "city": "Rayadrug",
+        "state": "Andhra Pradesh",
+        "lat": 14.69971,
+        "lon": 76.85241
+    },
+    {
+        "city": "Razam",
+        "state": "Andhra Pradesh",
+        "lat": 18.44909,
+        "lon": 83.65957
+    },
+    {
+        "city": "Razampeta",
+        "state": "Andhra Pradesh",
+        "lat": 14.19544,
+        "lon": 79.15896
+    },
+    {
+        "city": "Razole",
+        "state": "Andhra Pradesh",
+        "lat": 16.47608,
+        "lon": 81.83912
+    },
+    {
+        "city": "Renigunta",
+        "state": "Andhra Pradesh",
+        "lat": 13.65143,
+        "lon": 79.51256
+    },
+    {
+        "city": "Repalle",
+        "state": "Andhra Pradesh",
+        "lat": 16.0184,
+        "lon": 80.82958
+    },
+    {
+        "city": "Salur",
+        "state": "Andhra Pradesh",
+        "lat": 18.51716,
+        "lon": 83.20548
+    },
+    {
+        "city": "Samalkot",
+        "state": "Andhra Pradesh",
+        "lat": 17.05675,
+        "lon": 82.17639
+    },
+    {
+        "city": "Sattenapalle",
+        "state": "Andhra Pradesh",
+        "lat": 16.39381,
+        "lon": 80.15221
+    },
+    {
+        "city": "Singarayakonda",
+        "state": "Andhra Pradesh",
+        "lat": 15.23046,
+        "lon": 80.02794
+    },
+    {
+        "city": "Sompeta",
+        "state": "Andhra Pradesh",
+        "lat": 18.94419,
+        "lon": 84.58449
+    },
+    {
+        "city": "Srikakulam",
+        "state": "Andhra Pradesh",
+        "lat": 18.2989,
+        "lon": 83.89751
+    },
+    {
+        "city": "Srisailain",
+        "state": "Andhra Pradesh",
+        "lat": 16.07217,
+        "lon": 78.86816
+    },
+    {
+        "city": "Suluru",
+        "state": "Andhra Pradesh",
+        "lat": 13.7,
+        "lon": 80.01667
+    },
+    {
+        "city": "Tadepalle",
+        "state": "Andhra Pradesh",
+        "lat": 16.48333,
+        "lon": 80.6
+    },
+    {
+        "city": "Tadepallegudem",
+        "state": "Andhra Pradesh",
+        "lat": 16.81467,
+        "lon": 81.52717
+    },
+    {
+        "city": "Tadpatri",
+        "state": "Andhra Pradesh",
+        "lat": 14.90832,
+        "lon": 78.01031
+    },
+    {
+        "city": "Tanuku",
+        "state": "Andhra Pradesh",
+        "lat": 16.75438,
+        "lon": 81.68143
+    },
+    {
+        "city": "Tekkali",
+        "state": "Andhra Pradesh",
+        "lat": 18.6057,
+        "lon": 84.23546
+    },
+    {
+        "city": "Tirumala",
+        "state": "Andhra Pradesh",
+        "lat": 13.68333,
+        "lon": 79.35
+    },
+    {
+        "city": "Tirupati",
+        "state": "Andhra Pradesh",
+        "lat": 13.63551,
+        "lon": 79.41989
+    },
+    {
+        "city": "Tuni",
+        "state": "Andhra Pradesh",
+        "lat": 17.35905,
+        "lon": 82.54607
+    },
+    {
+        "city": "Uravakonda",
+        "state": "Andhra Pradesh",
+        "lat": 14.94348,
+        "lon": 77.25494
+    },
+    {
+        "city": "vadlamuru",
+        "state": "Andhra Pradesh",
+        "lat": 17.09545,
+        "lon": 82.16565
+    },
+    {
+        "city": "Vadlapudi",
+        "state": "Andhra Pradesh",
+        "lat": 14.31119,
+        "lon": 79.8043
+    },
+    {
+        "city": "Venkatagiri",
+        "state": "Andhra Pradesh",
+        "lat": 13.96005,
+        "lon": 79.58032
+    },
+    {
+        "city": "Vepagunta",
+        "state": "Andhra Pradesh",
+        "lat": 17.77844,
+        "lon": 83.21577
+    },
+    {
+        "city": "Vetapalem",
+        "state": "Andhra Pradesh",
+        "lat": 15.78502,
+        "lon": 80.30663
+    },
+    {
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "lat": 16.50745,
+        "lon": 80.6466
+    },
+    {
+        "city": "Vinukonda",
+        "state": "Andhra Pradesh",
+        "lat": 16.0531,
+        "lon": 79.73964
+    },
+    {
+        "city": "Visakhapatnam",
+        "state": "Andhra Pradesh",
+        "lat": 17.68009,
+        "lon": 83.20161
+    },
+    {
+        "city": "Vizianagaram",
+        "state": "Andhra Pradesh",
+        "lat": 18.11692,
+        "lon": 83.41148
+    },
+    {
+        "city": "Vizianagaram District",
+        "state": "Andhra Pradesh",
+        "lat": 18.41102,
+        "lon": 83.37677
+    },
+    {
+        "city": "Vuyyuru",
+        "state": "Andhra Pradesh",
+        "lat": 16.36307,
+        "lon": 80.84406
+    },
+    {
+        "city": "West Godavari",
+        "state": "Andhra Pradesh",
+        "lat": 17.0,
+        "lon": 81.16667
+    },
+    {
+        "city": "Yanam",
+        "state": "Andhra Pradesh",
+        "lat": 16.73308,
+        "lon": 82.21364
+    },
+    {
+        "city": "Yanamalakuduru",
+        "state": "Andhra Pradesh",
+        "lat": 16.48531,
+        "lon": 80.66746
+    },
+    {
+        "city": "Yarada",
+        "state": "Andhra Pradesh",
+        "lat": 17.65872,
+        "lon": 83.27419
+    },
+    {
+        "city": "Along",
+        "state": "Arunachal Pradesh",
+        "lat": 28.16951,
+        "lon": 94.8006
+    },
+    {
+        "city": "Anjaw",
+        "state": "Arunachal Pradesh",
+        "lat": 28.06549,
+        "lon": 96.82878
+    },
+    {
+        "city": "Basar",
+        "state": "Arunachal Pradesh",
+        "lat": 27.99008,
+        "lon": 94.69451
+    },
+    {
+        "city": "Bomdila",
+        "state": "Arunachal Pradesh",
+        "lat": 27.26475,
+        "lon": 92.42472
+    },
+    {
+        "city": "Changlang",
+        "state": "Arunachal Pradesh",
+        "lat": 27.36265,
+        "lon": 96.34518
+    },
+    {
+        "city": "Dibang Valley",
+        "state": "Arunachal Pradesh",
+        "lat": 28.7,
+        "lon": 95.7
+    },
+    {
+        "city": "East Kameng",
+        "state": "Arunachal Pradesh",
+        "lat": 27.3,
+        "lon": 93.05
+    },
+    {
+        "city": "East Siang",
+        "state": "Arunachal Pradesh",
+        "lat": 28.12379,
+        "lon": 95.16339
+    },
+    {
+        "city": "Hayuliang",
+        "state": "Arunachal Pradesh",
+        "lat": 28.07301,
+        "lon": 96.54305
+    },
+    {
+        "city": "Itanagar",
+        "state": "Arunachal Pradesh",
+        "lat": 27.08694,
+        "lon": 93.60987
+    },
+    {
+        "city": "Khonsa",
+        "state": "Arunachal Pradesh",
+        "lat": 27.01667,
+        "lon": 95.56667
+    },
+    {
+        "city": "Kurung Kumey",
+        "state": "Arunachal Pradesh",
+        "lat": 27.99983,
+        "lon": 93.3924
+    },
+    {
+        "city": "Lohit",
+        "state": "Arunachal Pradesh",
+        "lat": 27.84012,
+        "lon": 96.19521
+    },
+    {
+        "city": "Lower Dibang Valley",
+        "state": "Arunachal Pradesh",
+        "lat": 28.37258,
+        "lon": 95.8804
+    },
+    {
+        "city": "Lower Subansiri",
+        "state": "Arunachal Pradesh",
+        "lat": 27.62554,
+        "lon": 93.93908
+    },
+    {
+        "city": "Margherita",
+        "state": "Arunachal Pradesh",
+        "lat": 27.28482,
+        "lon": 95.66796
+    },
+    {
+        "city": "Naharlagun",
+        "state": "Arunachal Pradesh",
+        "lat": 27.10467,
+        "lon": 93.69518
+    },
+    {
+        "city": "Pasighat",
+        "state": "Arunachal Pradesh",
+        "lat": 28.06631,
+        "lon": 95.32678
+    },
+    {
+        "city": "Tawang",
+        "state": "Arunachal Pradesh",
+        "lat": 27.57417,
+        "lon": 91.92437
+    },
+    {
+        "city": "Tezu",
+        "state": "Arunachal Pradesh",
+        "lat": 27.91256,
+        "lon": 96.12882
+    },
+    {
+        "city": "Tirap",
+        "state": "Arunachal Pradesh",
+        "lat": 27.01917,
+        "lon": 95.51788
+    },
+    {
+        "city": "Upper Siang",
+        "state": "Arunachal Pradesh",
+        "lat": 28.83355,
+        "lon": 94.91806
+    },
+    {
+        "city": "Upper Subansiri",
+        "state": "Arunachal Pradesh",
+        "lat": 28.3,
+        "lon": 94.0
+    },
+    {
+        "city": "West Kameng",
+        "state": "Arunachal Pradesh",
+        "lat": 27.4,
+        "lon": 92.35
+    },
+    {
+        "city": "West Siang",
+        "state": "Arunachal Pradesh",
+        "lat": 28.4,
+        "lon": 94.55
+    },
+    {
+        "city": "Ziro",
+        "state": "Arunachal Pradesh",
+        "lat": 27.59497,
+        "lon": 93.83854
+    },
+    {
+        "city": "Abhayapuri",
+        "state": "Assam",
+        "lat": 26.32255,
+        "lon": 90.68526
+    },
+    {
+        "city": "Amguri",
+        "state": "Assam",
+        "lat": 26.81482,
+        "lon": 94.52614
+    },
+    {
+        "city": "Badarpur",
+        "state": "Assam",
+        "lat": 24.86852,
+        "lon": 92.59606
+    },
+    {
+        "city": "Baksa",
+        "state": "Assam",
+        "lat": 26.69804,
+        "lon": 91.15142
+    },
+    {
+        "city": "Barpathar",
+        "state": "Assam",
+        "lat": 26.28709,
+        "lon": 93.88844
+    },
+    {
+        "city": "Barpeta",
+        "state": "Assam",
+        "lat": 26.47104,
+        "lon": 91.0308
+    },
+    {
+        "city": "Barpeta Road",
+        "state": "Assam",
+        "lat": 26.50284,
+        "lon": 90.96937
+    },
+    {
+        "city": "Basugaon",
+        "state": "Assam",
+        "lat": 26.46742,
+        "lon": 90.41951
+    },
+    {
+        "city": "Bihpuriagaon",
+        "state": "Assam",
+        "lat": 27.01718,
+        "lon": 93.91673
+    },
+    {
+        "city": "Bijni",
+        "state": "Assam",
+        "lat": 26.49588,
+        "lon": 90.70298
+    },
+    {
+        "city": "Bilasipara",
+        "state": "Assam",
+        "lat": 26.23285,
+        "lon": 90.2341
+    },
+    {
+        "city": "Bokajan",
+        "state": "Assam",
+        "lat": 26.02131,
+        "lon": 93.77945
+    },
+    {
+        "city": "Bokakhat",
+        "state": "Assam",
+        "lat": 26.64018,
+        "lon": 93.60052
+    },
+    {
+        "city": "Bongaigaon",
+        "state": "Assam",
+        "lat": 26.4603,
+        "lon": 90.6464
+    },
+    {
+        "city": "Cachar",
+        "state": "Assam",
+        "lat": 24.78213,
+        "lon": 92.85771
+    },
+    {
+        "city": "Chabua",
+        "state": "Assam",
+        "lat": 27.48253,
+        "lon": 95.17451
+    },
+    {
+        "city": "Chapar",
+        "state": "Assam",
+        "lat": 26.27266,
+        "lon": 90.44556
+    },
+    {
+        "city": "Chirang",
+        "state": "Assam",
+        "lat": 26.52527,
+        "lon": 90.49066
+    },
+    {
+        "city": "Darrang",
+        "state": "Assam",
+        "lat": 26.51195,
+        "lon": 92.16843
+    },
+    {
+        "city": "Dergaon",
+        "state": "Assam",
+        "lat": 26.7,
+        "lon": 93.96667
+    },
+    {
+        "city": "Dhekiajuli",
+        "state": "Assam",
+        "lat": 26.70367,
+        "lon": 92.47808
+    },
+    {
+        "city": "Dhemaji",
+        "state": "Assam",
+        "lat": 27.6091,
+        "lon": 94.7942
+    },
+    {
+        "city": "Dhing",
+        "state": "Assam",
+        "lat": 26.46793,
+        "lon": 92.47336
+    },
+    {
+        "city": "Dhubri",
+        "state": "Assam",
+        "lat": 26.06749,
+        "lon": 90.02238
+    },
+    {
+        "city": "Dibrugarh",
+        "state": "Assam",
+        "lat": 27.5,
+        "lon": 95.0
+    },
+    {
+        "city": "Digboi",
+        "state": "Assam",
+        "lat": 27.39321,
+        "lon": 95.61839
+    },
+    {
+        "city": "Dima Hasao",
+        "state": "Assam",
+        "lat": 25.5,
+        "lon": 93.0
+    },
+    {
+        "city": "Diphu",
+        "state": "Assam",
+        "lat": 25.84341,
+        "lon": 93.43116
+    },
+    {
+        "city": "Dispur",
+        "state": "Assam",
+        "lat": 26.13564,
+        "lon": 91.80069
+    },
+    {
+        "city": "Duliagaon",
+        "state": "Assam",
+        "lat": 27.37227,
+        "lon": 95.30754
+    },
+    {
+        "city": "Dum Duma",
+        "state": "Assam",
+        "lat": 27.56884,
+        "lon": 95.55664
+    },
+    {
+        "city": "Gauripur",
+        "state": "Assam",
+        "lat": 26.08334,
+        "lon": 89.96118
+    },
+    {
+        "city": "Goalpara",
+        "state": "Assam",
+        "lat": 26.12791,
+        "lon": 90.60974
+    },
+    {
+        "city": "Gohpur",
+        "state": "Assam",
+        "lat": 26.88184,
+        "lon": 93.6156
+    },
+    {
+        "city": "Golaghat",
+        "state": "Assam",
+        "lat": 26.4092,
+        "lon": 93.91193
+    },
+    {
+        "city": "Golakganj",
+        "state": "Assam",
+        "lat": 26.10216,
+        "lon": 89.82275
+    },
+    {
+        "city": "Goshaingaon",
+        "state": "Assam",
+        "lat": 26.43946,
+        "lon": 89.96307
+    },
+    {
+        "city": "Guwahati",
+        "state": "Assam",
+        "lat": 26.1844,
+        "lon": 91.7458
+    },
+    {
+        "city": "Haflong",
+        "state": "Assam",
+        "lat": 25.16478,
+        "lon": 93.01744
+    },
+    {
+        "city": "Hailakandi",
+        "state": "Assam",
+        "lat": 24.5017,
+        "lon": 92.60069
+    },
+    {
+        "city": "Hajo",
+        "state": "Assam",
+        "lat": 26.2452,
+        "lon": 91.52525
+    },
+    {
+        "city": "Hojai",
+        "state": "Assam",
+        "lat": 26.00281,
+        "lon": 92.85605
+    },
+    {
+        "city": "Howli",
+        "state": "Assam",
+        "lat": 26.42237,
+        "lon": 90.98004
+    },
+    {
+        "city": "Jogighopa",
+        "state": "Assam",
+        "lat": 26.22646,
+        "lon": 90.57247
+    },
+    {
+        "city": "Jorhat",
+        "state": "Assam",
+        "lat": 26.8,
+        "lon": 94.26
+    },
+    {
+        "city": "Kamrup",
+        "state": "Assam",
+        "lat": 26.22322,
+        "lon": 91.65344
+    },
+    {
+        "city": "Kamrup Metropolitan",
+        "state": "Assam",
+        "lat": 26.05375,
+        "lon": 92.00763
+    },
+    {
+        "city": "Karbi Anglong",
+        "state": "Assam",
+        "lat": 26.0,
+        "lon": 93.5
+    },
+    {
+        "city": "Karimganj",
+        "state": "Assam",
+        "lat": 24.6,
+        "lon": 92.4
+    },
+    {
+        "city": "Kharupatia",
+        "state": "Assam",
+        "lat": 26.51839,
+        "lon": 92.14722
+    },
+    {
+        "city": "Kokrajhar",
+        "state": "Assam",
+        "lat": 26.6,
+        "lon": 90.2
+    },
+    {
+        "city": "Lakhimpur",
+        "state": "Assam",
+        "lat": 27.35,
+        "lon": 94.25
+    },
+    {
+        "city": "Lakhipur",
+        "state": "Assam",
+        "lat": 24.79281,
+        "lon": 93.0091
+    },
+    {
+        "city": "Lala",
+        "state": "Assam",
+        "lat": 24.55418,
+        "lon": 92.61592
+    },
+    {
+        "city": "Lumding Railway Colony",
+        "state": "Assam",
+        "lat": 25.74903,
+        "lon": 93.16998
+    },
+    {
+        "city": "Mahur",
+        "state": "Assam",
+        "lat": 25.18305,
+        "lon": 93.11342
+    },
+    {
+        "city": "Maibong",
+        "state": "Assam",
+        "lat": 25.30125,
+        "lon": 93.13811
+    },
+    {
+        "city": "Makum",
+        "state": "Assam",
+        "lat": 27.48652,
+        "lon": 95.43646
+    },
+    {
+        "city": "Mangaldai",
+        "state": "Assam",
+        "lat": 26.44212,
+        "lon": 92.03047
+    },
+    {
+        "city": "Mariani",
+        "state": "Assam",
+        "lat": 26.65725,
+        "lon": 94.31529
+    },
+    {
+        "city": "Moranha",
+        "state": "Assam",
+        "lat": 27.18735,
+        "lon": 94.91557
+    },
+    {
+        "city": "Morigaon",
+        "state": "Assam",
+        "lat": 26.25213,
+        "lon": 92.34238
+    },
+    {
+        "city": "Nagaon",
+        "state": "Assam",
+        "lat": 26.35037,
+        "lon": 92.69225
+    },
+    {
+        "city": "Nahorkatiya",
+        "state": "Assam",
+        "lat": 27.28912,
+        "lon": 95.3418
+    },
+    {
+        "city": "Nalbari",
+        "state": "Assam",
+        "lat": 26.5,
+        "lon": 91.4
+    },
+    {
+        "city": "Namrup",
+        "state": "Assam",
+        "lat": 27.19395,
+        "lon": 95.31929
+    },
+    {
+        "city": "Nazira",
+        "state": "Assam",
+        "lat": 26.91649,
+        "lon": 94.73611
+    },
+    {
+        "city": "North Guwahati",
+        "state": "Assam",
+        "lat": 26.19749,
+        "lon": 91.7202
+    },
+    {
+        "city": "North Lakhimpur",
+        "state": "Assam",
+        "lat": 27.23517,
+        "lon": 94.10357
+    },
+    {
+        "city": "Numaligarh",
+        "state": "Assam",
+        "lat": 26.62249,
+        "lon": 93.72225
+    },
+    {
+        "city": "Palasbari",
+        "state": "Assam",
+        "lat": 26.12388,
+        "lon": 91.53974
+    },
+    {
+        "city": "Raha",
+        "state": "Assam",
+        "lat": 26.23333,
+        "lon": 92.51667
+    },
+    {
+        "city": "Rangapara",
+        "state": "Assam",
+        "lat": 26.83772,
+        "lon": 92.66876
+    },
+    {
+        "city": "Rangia",
+        "state": "Assam",
+        "lat": 26.44931,
+        "lon": 91.61356
+    },
+    {
+        "city": "Sapatgram",
+        "state": "Assam",
+        "lat": 26.33732,
+        "lon": 90.1236
+    },
+    {
+        "city": "Sarupathar",
+        "state": "Assam",
+        "lat": 26.206,
+        "lon": 96.81
+    },
+    {
+        "city": "Sibsagar",
+        "state": "Assam",
+        "lat": 26.98427,
+        "lon": 94.63784
+    },
+    {
+        "city": "Silapathar",
+        "state": "Assam",
+        "lat": 27.59441,
+        "lon": 94.72402
+    },
+    {
+        "city": "Silchar",
+        "state": "Assam",
+        "lat": 24.82733,
+        "lon": 92.79787
+    },
+    {
+        "city": "Soalkuchi",
+        "state": "Assam",
+        "lat": 26.16806,
+        "lon": 91.57111
+    },
+    {
+        "city": "Sonari",
+        "state": "Assam",
+        "lat": 27.02462,
+        "lon": 95.01629
+    },
+    {
+        "city": "Sonitpur",
+        "state": "Assam",
+        "lat": 26.76748,
+        "lon": 92.96425
+    },
+    {
+        "city": "Sorbhog",
+        "state": "Assam",
+        "lat": 26.48612,
+        "lon": 90.8859
+    },
+    {
+        "city": "Tezpur",
+        "state": "Assam",
+        "lat": 26.63333,
+        "lon": 92.8
+    },
+    {
+        "city": "Tinsukia",
+        "state": "Assam",
+        "lat": 27.6,
+        "lon": 95.6
+    },
+    {
+        "city": "Titabar",
+        "state": "Assam",
+        "lat": 26.6014,
+        "lon": 94.20386
+    },
+    {
+        "city": "Udalguri",
+        "state": "Assam",
+        "lat": 26.75367,
+        "lon": 92.10215
+    },
+    {
+        "city": "Amarpur",
+        "state": "Bihar",
+        "lat": 25.03967,
+        "lon": 86.90247
+    },
+    {
+        "city": "Araria",
+        "state": "Bihar",
+        "lat": 26.2,
+        "lon": 87.4
+    },
+    {
+        "city": "Arrah",
+        "state": "Bihar",
+        "lat": 25.55629,
+        "lon": 84.66335
+    },
+    {
+        "city": "Arwal",
+        "state": "Bihar",
+        "lat": 25.16158,
+        "lon": 84.6904
+    },
+    {
+        "city": "Asarganj",
+        "state": "Bihar",
+        "lat": 25.15046,
+        "lon": 86.68639
+    },
+    {
+        "city": "Aurangabad",
+        "state": "Bihar",
+        "lat": 24.75204,
+        "lon": 84.3742
+    },
+    {
+        "city": "Bagaha",
+        "state": "Bihar",
+        "lat": 27.09918,
+        "lon": 84.09003
+    },
+    {
+        "city": "Bahadurganj",
+        "state": "Bihar",
+        "lat": 26.26172,
+        "lon": 87.82443
+    },
+    {
+        "city": "Bairagnia",
+        "state": "Bihar",
+        "lat": 26.74063,
+        "lon": 85.27323
+    },
+    {
+        "city": "Baisi",
+        "state": "Bihar",
+        "lat": 25.86302,
+        "lon": 87.74487
+    },
+    {
+        "city": "Bakhtiyarpur",
+        "state": "Bihar",
+        "lat": 25.46179,
+        "lon": 85.53179
+    },
+    {
+        "city": "Bangaon",
+        "state": "Bihar",
+        "lat": 25.86728,
+        "lon": 86.51152
+    },
+    {
+        "city": "Banka",
+        "state": "Bihar",
+        "lat": 24.89214,
+        "lon": 86.98425
+    },
+    {
+        "city": "Banmankhi",
+        "state": "Bihar",
+        "lat": 25.88857,
+        "lon": 87.19421
+    },
+    {
+        "city": "Bar Bigha",
+        "state": "Bihar",
+        "lat": 25.21855,
+        "lon": 85.7332
+    },
+    {
+        "city": "Barauli",
+        "state": "Bihar",
+        "lat": 26.38109,
+        "lon": 84.58648
+    },
+    {
+        "city": "Barh",
+        "state": "Bihar",
+        "lat": 25.48339,
+        "lon": 85.70928
+    },
+    {
+        "city": "Barhiya",
+        "state": "Bihar",
+        "lat": 25.28814,
+        "lon": 86.02055
+    },
+    {
+        "city": "Bariarpur",
+        "state": "Bihar",
+        "lat": 25.28791,
+        "lon": 86.57643
+    },
+    {
+        "city": "Baruni",
+        "state": "Bihar",
+        "lat": 25.47509,
+        "lon": 85.96813
+    },
+    {
+        "city": "Begusarai",
+        "state": "Bihar",
+        "lat": 25.41853,
+        "lon": 86.13389
+    },
+    {
+        "city": "Belsand",
+        "state": "Bihar",
+        "lat": 26.44365,
+        "lon": 85.40076
+    },
+    {
+        "city": "Bettiah",
+        "state": "Bihar",
+        "lat": 26.80229,
+        "lon": 84.50311
+    },
+    {
+        "city": "Bhabhua",
+        "state": "Bihar",
+        "lat": 25.04049,
+        "lon": 83.60749
+    },
+    {
+        "city": "Bhagalpur",
+        "state": "Bihar",
+        "lat": 25.29023,
+        "lon": 87.06665
+    },
+    {
+        "city": "Bhagirathpur",
+        "state": "Bihar",
+        "lat": 26.2695,
+        "lon": 86.06346
+    },
+    {
+        "city": "Bhawanipur",
+        "state": "Bihar",
+        "lat": 26.45352,
+        "lon": 87.02744
+    },
+    {
+        "city": "Bhojpur",
+        "state": "Bihar",
+        "lat": 25.30886,
+        "lon": 84.44504
+    },
+    {
+        "city": "Bihar Sharif",
+        "state": "Bihar",
+        "lat": 25.20084,
+        "lon": 85.52389
+    },
+    {
+        "city": "Bihariganj",
+        "state": "Bihar",
+        "lat": 25.73415,
+        "lon": 86.98837
+    },
+    {
+        "city": "Bikramganj",
+        "state": "Bihar",
+        "lat": 25.21073,
+        "lon": 84.25508
+    },
+    {
+        "city": "Birpur",
+        "state": "Bihar",
+        "lat": 26.50823,
+        "lon": 87.01194
+    },
+    {
+        "city": "Bodh Gaya",
+        "state": "Bihar",
+        "lat": 24.69808,
+        "lon": 84.9869
+    },
+    {
+        "city": "Buxar",
+        "state": "Bihar",
+        "lat": 25.5,
+        "lon": 84.1
+    },
+    {
+        "city": "Chakia",
+        "state": "Bihar",
+        "lat": 26.41598,
+        "lon": 85.04665
+    },
+    {
+        "city": "Chapra",
+        "state": "Bihar",
+        "lat": 25.78031,
+        "lon": 84.74709
+    },
+    {
+        "city": "Chhatapur",
+        "state": "Bihar",
+        "lat": 26.21965,
+        "lon": 87.00479
+    },
+    {
+        "city": "Colgong",
+        "state": "Bihar",
+        "lat": 25.26328,
+        "lon": 87.23264
+    },
+    {
+        "city": "Dalsingh Sarai",
+        "state": "Bihar",
+        "lat": 25.66795,
+        "lon": 85.83636
+    },
+    {
+        "city": "Darbhanga",
+        "state": "Bihar",
+        "lat": 26.0,
+        "lon": 86.0
+    },
+    {
+        "city": "Daudnagar",
+        "state": "Bihar",
+        "lat": 25.03473,
+        "lon": 84.40095
+    },
+    {
+        "city": "Dehri",
+        "state": "Bihar",
+        "lat": 24.90247,
+        "lon": 84.18217
+    },
+    {
+        "city": "Dhaka",
+        "state": "Bihar",
+        "lat": 26.67479,
+        "lon": 85.16698
+    },
+    {
+        "city": "Dighwara",
+        "state": "Bihar",
+        "lat": 25.74434,
+        "lon": 85.01003
+    },
+    {
+        "city": "Dinapore",
+        "state": "Bihar",
+        "lat": 25.63705,
+        "lon": 85.04794
+    },
+    {
+        "city": "Dumra",
+        "state": "Bihar",
+        "lat": 26.56708,
+        "lon": 85.5204
+    },
+    {
+        "city": "Dumraon",
+        "state": "Bihar",
+        "lat": 25.55265,
+        "lon": 84.15149
+    },
+    {
+        "city": "Fatwa",
+        "state": "Bihar",
+        "lat": 25.50958,
+        "lon": 85.30504
+    },
+    {
+        "city": "Forbesganj",
+        "state": "Bihar",
+        "lat": 26.30253,
+        "lon": 87.26556
+    },
+    {
+        "city": "Gaya",
+        "state": "Bihar",
+        "lat": 24.79686,
+        "lon": 85.00385
+    },
+    {
+        "city": "Ghoga",
+        "state": "Bihar",
+        "lat": 25.21738,
+        "lon": 87.1571
+    },
+    {
+        "city": "Gopalganj",
+        "state": "Bihar",
+        "lat": 26.5,
+        "lon": 84.33333
+    },
+    {
+        "city": "Hajipur",
+        "state": "Bihar",
+        "lat": 25.68544,
+        "lon": 85.20981
+    },
+    {
+        "city": "Hilsa",
+        "state": "Bihar",
+        "lat": 25.31642,
+        "lon": 85.28234
+    },
+    {
+        "city": "Hisua",
+        "state": "Bihar",
+        "lat": 24.8336,
+        "lon": 85.41729
+    },
+    {
+        "city": "Islampur",
+        "state": "Bihar",
+        "lat": 25.14075,
+        "lon": 85.20587
+    },
+    {
+        "city": "Jagdispur",
+        "state": "Bihar",
+        "lat": 25.46811,
+        "lon": 84.41939
+    },
+    {
+        "city": "Jahanabad",
+        "state": "Bihar",
+        "lat": 25.21368,
+        "lon": 84.9871
+    },
+    {
+        "city": "Jamalpur",
+        "state": "Bihar",
+        "lat": 25.31258,
+        "lon": 86.48888
+    },
+    {
+        "city": "Jamui",
+        "state": "Bihar",
+        "lat": 24.92082,
+        "lon": 86.17538
+    },
+    {
+        "city": "Jaynagar",
+        "state": "Bihar",
+        "lat": 26.59048,
+        "lon": 86.13791
+    },
+    {
+        "city": "Jehanabad",
+        "state": "Bihar",
+        "lat": 25.20701,
+        "lon": 84.99573
+    },
+    {
+        "city": "Jha-Jha",
+        "state": "Bihar",
+        "lat": 24.77107,
+        "lon": 86.37888
+    },
+    {
+        "city": "Jhanjharpur",
+        "state": "Bihar",
+        "lat": 26.26467,
+        "lon": 86.27993
+    },
+    {
+        "city": "Jogbani",
+        "state": "Bihar",
+        "lat": 26.39905,
+        "lon": 87.26525
+    },
+    {
+        "city": "Kaimur",
+        "state": "Bihar",
+        "lat": 25.05077,
+        "lon": 83.58261
+    },
+    {
+        "city": "Kasba",
+        "state": "Bihar",
+        "lat": 25.85643,
+        "lon": 87.53836
+    },
+    {
+        "city": "Katihar",
+        "state": "Bihar",
+        "lat": 25.5,
+        "lon": 87.6
+    },
+    {
+        "city": "Khagaria",
+        "state": "Bihar",
+        "lat": 25.5022,
+        "lon": 86.46708
+    },
+    {
+        "city": "Khagaul",
+        "state": "Bihar",
+        "lat": 25.57898,
+        "lon": 85.04564
+    },
+    {
+        "city": "Kharagpur",
+        "state": "Bihar",
+        "lat": 25.12446,
+        "lon": 86.55578
+    },
+    {
+        "city": "Khusropur",
+        "state": "Bihar",
+        "lat": 25.48174,
+        "lon": 85.38492
+    },
+    {
+        "city": "Kishanganj",
+        "state": "Bihar",
+        "lat": 26.3,
+        "lon": 88.0
+    },
+    {
+        "city": "Koath",
+        "state": "Bihar",
+        "lat": 25.32643,
+        "lon": 84.25983
+    },
+    {
+        "city": "Koelwar",
+        "state": "Bihar",
+        "lat": 25.58055,
+        "lon": 84.79751
+    },
+    {
+        "city": "Lakhisarai",
+        "state": "Bihar",
+        "lat": 25.2,
+        "lon": 86.2
+    },
+    {
+        "city": "Lalganj",
+        "state": "Bihar",
+        "lat": 25.86894,
+        "lon": 85.17394
+    },
+    {
+        "city": "Luckeesarai",
+        "state": "Bihar",
+        "lat": 25.1765,
+        "lon": 86.0947
+    },
+    {
+        "city": "Madhepura",
+        "state": "Bihar",
+        "lat": 25.8,
+        "lon": 87.0
+    },
+    {
+        "city": "Madhubani",
+        "state": "Bihar",
+        "lat": 26.35367,
+        "lon": 86.07169
+    },
+    {
+        "city": "Maharajgani",
+        "state": "Bihar",
+        "lat": 26.11017,
+        "lon": 84.50365
+    },
+    {
+        "city": "Mairwa",
+        "state": "Bihar",
+        "lat": 26.23218,
+        "lon": 84.16349
+    },
+    {
+        "city": "Maner",
+        "state": "Bihar",
+        "lat": 25.64602,
+        "lon": 84.87291
+    },
+    {
+        "city": "Manihari",
+        "state": "Bihar",
+        "lat": 25.33891,
+        "lon": 87.61998
+    },
+    {
+        "city": "Marhaura",
+        "state": "Bihar",
+        "lat": 25.97349,
+        "lon": 84.86796
+    },
+    {
+        "city": "Masaurhi Buzurg",
+        "state": "Bihar",
+        "lat": 25.35417,
+        "lon": 85.03195
+    },
+    {
+        "city": "Mohiuddi nagar",
+        "state": "Bihar",
+        "lat": 25.57374,
+        "lon": 85.66944
+    },
+    {
+        "city": "Mokameh",
+        "state": "Bihar",
+        "lat": 25.39662,
+        "lon": 85.9219
+    },
+    {
+        "city": "Monghyr",
+        "state": "Bihar",
+        "lat": 25.37459,
+        "lon": 86.47455
+    },
+    {
+        "city": "Mothihari",
+        "state": "Bihar",
+        "lat": 26.64862,
+        "lon": 84.91656
+    },
+    {
+        "city": "Munger",
+        "state": "Bihar",
+        "lat": 25.36099,
+        "lon": 86.46515
+    },
+    {
+        "city": "Murliganj",
+        "state": "Bihar",
+        "lat": 25.8969,
+        "lon": 86.99577
+    },
+    {
+        "city": "Muzaffarpur",
+        "state": "Bihar",
+        "lat": 26.16667,
+        "lon": 85.41667
+    },
+    {
+        "city": "Nabinagar",
+        "state": "Bihar",
+        "lat": 24.60681,
+        "lon": 84.12624
+    },
+    {
+        "city": "Nalanda",
+        "state": "Bihar",
+        "lat": 25.25,
+        "lon": 85.58333
+    },
+    {
+        "city": "Nasriganj",
+        "state": "Bihar",
+        "lat": 25.0514,
+        "lon": 84.32839
+    },
+    {
+        "city": "Naugachhia",
+        "state": "Bihar",
+        "lat": 25.38807,
+        "lon": 87.09906
+    },
+    {
+        "city": "Nawada",
+        "state": "Bihar",
+        "lat": 24.75,
+        "lon": 85.5
+    },
+    {
+        "city": "Nirmali",
+        "state": "Bihar",
+        "lat": 26.31397,
+        "lon": 86.58537
+    },
+    {
+        "city": "Pashchim Champaran",
+        "state": "Bihar",
+        "lat": 27.0,
+        "lon": 84.5
+    },
+    {
+        "city": "Patna",
+        "state": "Bihar",
+        "lat": 25.41667,
+        "lon": 85.16667
+    },
+    {
+        "city": "Piro",
+        "state": "Bihar",
+        "lat": 25.33218,
+        "lon": 84.40454
+    },
+    {
+        "city": "Pupri",
+        "state": "Bihar",
+        "lat": 26.47079,
+        "lon": 85.70311
+    },
+    {
+        "city": "Purba Champaran",
+        "state": "Bihar",
+        "lat": 26.58333,
+        "lon": 84.83333
+    },
+    {
+        "city": "Purnia",
+        "state": "Bihar",
+        "lat": 25.81614,
+        "lon": 87.40708
+    },
+    {
+        "city": "Rafiganj",
+        "state": "Bihar",
+        "lat": 24.81757,
+        "lon": 84.63445
+    },
+    {
+        "city": "Raghunathpur",
+        "state": "Bihar",
+        "lat": 25.64492,
+        "lon": 87.91762
+    },
+    {
+        "city": "Rajgir",
+        "state": "Bihar",
+        "lat": 25.02828,
+        "lon": 85.42079
+    },
+    {
+        "city": "Ramnagar",
+        "state": "Bihar",
+        "lat": 27.16371,
+        "lon": 84.32342
+    },
+    {
+        "city": "Raxaul",
+        "state": "Bihar",
+        "lat": 26.97982,
+        "lon": 84.85065
+    },
+    {
+        "city": "Revelganj",
+        "state": "Bihar",
+        "lat": 25.78976,
+        "lon": 84.63596
+    },
+    {
+        "city": "Rohtas",
+        "state": "Bihar",
+        "lat": 24.97941,
+        "lon": 84.02774
+    },
+    {
+        "city": "Rusera",
+        "state": "Bihar",
+        "lat": 25.75355,
+        "lon": 86.02597
+    },
+    {
+        "city": "Sagauli",
+        "state": "Bihar",
+        "lat": 26.7639,
+        "lon": 84.74341
+    },
+    {
+        "city": "Saharsa",
+        "state": "Bihar",
+        "lat": 25.87498,
+        "lon": 86.59611
+    },
+    {
+        "city": "Samastipur",
+        "state": "Bihar",
+        "lat": 25.75,
+        "lon": 85.91667
+    },
+    {
+        "city": "Saran",
+        "state": "Bihar",
+        "lat": 25.91667,
+        "lon": 84.75
+    },
+    {
+        "city": "Shahbazpur",
+        "state": "Bihar",
+        "lat": 26.30511,
+        "lon": 87.28865
+    },
+    {
+        "city": "Shahpur",
+        "state": "Bihar",
+        "lat": 25.60293,
+        "lon": 84.40412
+    },
+    {
+        "city": "Sheikhpura",
+        "state": "Bihar",
+        "lat": 25.13073,
+        "lon": 85.78176
+    },
+    {
+        "city": "Sheohar",
+        "state": "Bihar",
+        "lat": 26.5,
+        "lon": 85.3
+    },
+    {
+        "city": "Sherghati",
+        "state": "Bihar",
+        "lat": 24.5595,
+        "lon": 84.79162
+    },
+    {
+        "city": "Silao",
+        "state": "Bihar",
+        "lat": 25.08358,
+        "lon": 85.42804
+    },
+    {
+        "city": "Sitamarhi",
+        "state": "Bihar",
+        "lat": 26.66667,
+        "lon": 85.5
+    },
+    {
+        "city": "Siwan",
+        "state": "Bihar",
+        "lat": 26.22096,
+        "lon": 84.35609
+    },
+    {
+        "city": "Supaul",
+        "state": "Bihar",
+        "lat": 26.25,
+        "lon": 86.8
+    },
+    {
+        "city": "Teghra",
+        "state": "Bihar",
+        "lat": 25.49043,
+        "lon": 85.94001
+    },
+    {
+        "city": "Tekari",
+        "state": "Bihar",
+        "lat": 24.94253,
+        "lon": 84.84265
+    },
+    {
+        "city": "Thakurganj",
+        "state": "Bihar",
+        "lat": 26.42742,
+        "lon": 88.13112
+    },
+    {
+        "city": "Vaishali",
+        "state": "Bihar",
+        "lat": 25.75,
+        "lon": 85.41667
+    },
+    {
+        "city": "Waris Aliganj",
+        "state": "Bihar",
+        "lat": 25.0172,
+        "lon": 85.64047
+    },
+    {
+        "city": "Chandigarh",
+        "state": "Chandigarh",
+        "lat": 30.73629,
+        "lon": 76.7884
+    },
+    {
+        "city": "Akaltara",
+        "state": "Chhattisgarh",
+        "lat": 22.02463,
+        "lon": 82.42641
+    },
+    {
+        "city": "Ambagarh Chauki",
+        "state": "Chhattisgarh",
+        "lat": 20.77644,
+        "lon": 80.74608
+    },
+    {
+        "city": "Ambikapur",
+        "state": "Chhattisgarh",
+        "lat": 23.11892,
+        "lon": 83.19537
+    },
+    {
+        "city": "Arang",
+        "state": "Chhattisgarh",
+        "lat": 21.19639,
+        "lon": 81.96912
+    },
+    {
+        "city": "Baikunthpur",
+        "state": "Chhattisgarh",
+        "lat": 23.26206,
+        "lon": 82.56051
+    },
+    {
+        "city": "Balod",
+        "state": "Chhattisgarh",
+        "lat": 20.73081,
+        "lon": 81.20578
+    },
+    {
+        "city": "Baloda",
+        "state": "Chhattisgarh",
+        "lat": 22.1389,
+        "lon": 82.48171
+    },
+    {
+        "city": "Baloda Bazar",
+        "state": "Chhattisgarh",
+        "lat": 21.65678,
+        "lon": 82.16062
+    },
+    {
+        "city": "Basna",
+        "state": "Chhattisgarh",
+        "lat": 21.27885,
+        "lon": 82.8267
+    },
+    {
+        "city": "Bastar",
+        "state": "Chhattisgarh",
+        "lat": 19.26794,
+        "lon": 81.73828
+    },
+    {
+        "city": "Bemetara",
+        "state": "Chhattisgarh",
+        "lat": 21.71556,
+        "lon": 81.53423
+    },
+    {
+        "city": "Bhanpuri",
+        "state": "Chhattisgarh",
+        "lat": 21.0919,
+        "lon": 80.93218
+    },
+    {
+        "city": "Bhatapara",
+        "state": "Chhattisgarh",
+        "lat": 21.735,
+        "lon": 81.94711
+    },
+    {
+        "city": "Bhatgaon",
+        "state": "Chhattisgarh",
+        "lat": 21.15,
+        "lon": 81.7
+    },
+    {
+        "city": "Bhilai",
+        "state": "Chhattisgarh",
+        "lat": 21.20919,
+        "lon": 81.4285
+    },
+    {
+        "city": "Bijapur",
+        "state": "Chhattisgarh",
+        "lat": 18.84322,
+        "lon": 80.7761
+    },
+    {
+        "city": "Bilaspur",
+        "state": "Chhattisgarh",
+        "lat": 22.38333,
+        "lon": 82.13333
+    },
+    {
+        "city": "Champa",
+        "state": "Chhattisgarh",
+        "lat": 22.03532,
+        "lon": 82.64234
+    },
+    {
+        "city": "Chhuikhadan",
+        "state": "Chhattisgarh",
+        "lat": 21.52316,
+        "lon": 80.99788
+    },
+    {
+        "city": "Dantewada",
+        "state": "Chhattisgarh",
+        "lat": 18.899848,
+        "lon": 81.3386752
+    },
+    {
+        "city": "Deori",
+        "state": "Chhattisgarh",
+        "lat": 21.45,
+        "lon": 82.61667
+    },
+    {
+        "city": "Dhamtari",
+        "state": "Chhattisgarh",
+        "lat": 20.70718,
+        "lon": 81.54874
+    },
+    {
+        "city": "Dongargaon",
+        "state": "Chhattisgarh",
+        "lat": 20.97172,
+        "lon": 80.85077
+    },
+    {
+        "city": "Dongargarh",
+        "state": "Chhattisgarh",
+        "lat": 21.18893,
+        "lon": 80.75459
+    },
+    {
+        "city": "Durg",
+        "state": "Chhattisgarh",
+        "lat": 21.15,
+        "lon": 81.4
+    },
+    {
+        "city": "Gandai",
+        "state": "Chhattisgarh",
+        "lat": 21.66667,
+        "lon": 81.10013
+    },
+    {
+        "city": "Gariaband",
+        "state": "Chhattisgarh",
+        "lat": 20.63323,
+        "lon": 82.06221
+    },
+    {
+        "city": "Gaurela",
+        "state": "Chhattisgarh",
+        "lat": 22.75449,
+        "lon": 81.90107
+    },
+    {
+        "city": "Gharghoda",
+        "state": "Chhattisgarh",
+        "lat": 22.17427,
+        "lon": 83.3517
+    },
+    {
+        "city": "Gidam",
+        "state": "Chhattisgarh",
+        "lat": 18.97431,
+        "lon": 81.39894
+    },
+    {
+        "city": "Jagdalpur",
+        "state": "Chhattisgarh",
+        "lat": 19.08136,
+        "lon": 82.02131
+    },
+    {
+        "city": "Janjgir",
+        "state": "Chhattisgarh",
+        "lat": 22.00922,
+        "lon": 82.5778
+    },
+    {
+        "city": "Janjgir-Champa",
+        "state": "Chhattisgarh",
+        "lat": 21.9,
+        "lon": 82.7
+    },
+    {
+        "city": "Jashpur",
+        "state": "Chhattisgarh",
+        "lat": 22.78495,
+        "lon": 83.84573
+    },
+    {
+        "city": "Jashpurnagar",
+        "state": "Chhattisgarh",
+        "lat": 22.88783,
+        "lon": 84.13864
+    },
+    {
+        "city": "Junagarh",
+        "state": "Chhattisgarh",
+        "lat": 19.85993,
+        "lon": 82.93385
+    },
+    {
+        "city": "Kabeerdham",
+        "state": "Chhattisgarh",
+        "lat": 22.1,
+        "lon": 81.2
+    },
+    {
+        "city": "Kanker",
+        "state": "Chhattisgarh",
+        "lat": 20.27193,
+        "lon": 81.49177
+    },
+    {
+        "city": "Katghora",
+        "state": "Chhattisgarh",
+        "lat": 22.50247,
+        "lon": 82.54279
+    },
+    {
+        "city": "Kawardha",
+        "state": "Chhattisgarh",
+        "lat": 22.00853,
+        "lon": 81.23148
+    },
+    {
+        "city": "Khairagarh",
+        "state": "Chhattisgarh",
+        "lat": 21.41859,
+        "lon": 80.97942
+    },
+    {
+        "city": "Khamharia",
+        "state": "Chhattisgarh",
+        "lat": 20.976,
+        "lon": 82.25116
+    },
+    {
+        "city": "Kharod",
+        "state": "Chhattisgarh",
+        "lat": 21.7442,
+        "lon": 82.5788
+    },
+    {
+        "city": "Kharsia",
+        "state": "Chhattisgarh",
+        "lat": 21.98953,
+        "lon": 83.10476
+    },
+    {
+        "city": "Kirandul",
+        "state": "Chhattisgarh",
+        "lat": 18.63649,
+        "lon": 81.25827
+    },
+    {
+        "city": "Kondagaon",
+        "state": "Chhattisgarh",
+        "lat": 19.59083,
+        "lon": 81.664
+    },
+    {
+        "city": "Korba",
+        "state": "Chhattisgarh",
+        "lat": 22.5,
+        "lon": 82.6
+    },
+    {
+        "city": "Koria",
+        "state": "Chhattisgarh",
+        "lat": 23.48326,
+        "lon": 82.15037
+    },
+    {
+        "city": "Kota",
+        "state": "Chhattisgarh",
+        "lat": 22.29507,
+        "lon": 82.02366
+    },
+    {
+        "city": "Kotaparh",
+        "state": "Chhattisgarh",
+        "lat": 19.14256,
+        "lon": 82.32536
+    },
+    {
+        "city": "Kumhari",
+        "state": "Chhattisgarh",
+        "lat": 21.26667,
+        "lon": 81.51667
+    },
+    {
+        "city": "Kurud",
+        "state": "Chhattisgarh",
+        "lat": 20.83073,
+        "lon": 81.72212
+    },
+    {
+        "city": "Lormi",
+        "state": "Chhattisgarh",
+        "lat": 22.27434,
+        "lon": 81.70181
+    },
+    {
+        "city": "Mahasamund",
+        "state": "Chhattisgarh",
+        "lat": 21.2,
+        "lon": 82.5
+    },
+    {
+        "city": "Mungeli",
+        "state": "Chhattisgarh",
+        "lat": 22.06566,
+        "lon": 81.68543
+    },
+    {
+        "city": "Narayanpur",
+        "state": "Chhattisgarh",
+        "lat": 19.60426,
+        "lon": 81.08119
+    },
+    {
+        "city": "Narharpur",
+        "state": "Chhattisgarh",
+        "lat": 20.44892,
+        "lon": 81.62004
+    },
+    {
+        "city": "Pandaria",
+        "state": "Chhattisgarh",
+        "lat": 22.22495,
+        "lon": 81.40994
+    },
+    {
+        "city": "Pandatarai",
+        "state": "Chhattisgarh",
+        "lat": 22.18714,
+        "lon": 81.32815
+    },
+    {
+        "city": "Pasan",
+        "state": "Chhattisgarh",
+        "lat": 22.84412,
+        "lon": 82.19823
+    },
+    {
+        "city": "Patan",
+        "state": "Chhattisgarh",
+        "lat": 21.03333,
+        "lon": 81.53333
+    },
+    {
+        "city": "Pathalgaon",
+        "state": "Chhattisgarh",
+        "lat": 22.55656,
+        "lon": 83.46355
+    },
+    {
+        "city": "Pendra",
+        "state": "Chhattisgarh",
+        "lat": 22.77548,
+        "lon": 81.95968
+    },
+    {
+        "city": "Pithora",
+        "state": "Chhattisgarh",
+        "lat": 21.25021,
+        "lon": 82.51707
+    },
+    {
+        "city": "Raigarh",
+        "state": "Chhattisgarh",
+        "lat": 22.08582,
+        "lon": 83.30603
+    },
+    {
+        "city": "Raipur",
+        "state": "Chhattisgarh",
+        "lat": 21.25621,
+        "lon": 81.69022
+    },
+    {
+        "city": "Raj Nandgaon",
+        "state": "Chhattisgarh",
+        "lat": 21.16667,
+        "lon": 81.0
+    },
+    {
+        "city": "Ramanuj Ganj",
+        "state": "Chhattisgarh",
+        "lat": 23.80637,
+        "lon": 83.69981
+    },
+    {
+        "city": "Ratanpur",
+        "state": "Chhattisgarh",
+        "lat": 22.2866,
+        "lon": 82.16823
+    },
+    {
+        "city": "Sakti",
+        "state": "Chhattisgarh",
+        "lat": 22.02662,
+        "lon": 82.96091
+    },
+    {
+        "city": "Saraipali",
+        "state": "Chhattisgarh",
+        "lat": 21.3153,
+        "lon": 83.00629
+    },
+    {
+        "city": "Sarangarh",
+        "state": "Chhattisgarh",
+        "lat": 21.58614,
+        "lon": 83.0785
+    },
+    {
+        "city": "Seorinarayan",
+        "state": "Chhattisgarh",
+        "lat": 21.72055,
+        "lon": 82.59344
+    },
+    {
+        "city": "Simga",
+        "state": "Chhattisgarh",
+        "lat": 21.6281,
+        "lon": 81.70376
+    },
+    {
+        "city": "Surguja",
+        "state": "Chhattisgarh",
+        "lat": 22.89624,
+        "lon": 83.09631
+    },
+    {
+        "city": "Takhatpur",
+        "state": "Chhattisgarh",
+        "lat": 22.12915,
+        "lon": 81.86959
+    },
+    {
+        "city": "Umarkot",
+        "state": "Chhattisgarh",
+        "lat": 19.66529,
+        "lon": 82.20629
+    },
+    {
+        "city": "Uttar Bastar Kanker",
+        "state": "Chhattisgarh",
+        "lat": 20.2,
+        "lon": 81.1
+    },
+    {
+        "city": "Amli",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "lat": 20.28333,
+        "lon": 73.01667
+    },
+    {
+        "city": "Dadra",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "lat": 20.32504,
+        "lon": 72.96618
+    },
+    {
+        "city": "Dadra & Nagar Haveli",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "lat": 20.20651,
+        "lon": 73.00811
+    },
+    {
+        "city": "Daman",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "lat": 20.41431,
+        "lon": 72.83236
+    },
+    {
+        "city": "Diu",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "lat": 20.72081,
+        "lon": 70.93989
+    }
+]
