@@ -223,12 +223,44 @@ input:checked+.slider:before {
     transform: translateX(-50%);
     width: min(500px, 92%);
     z-index: 500;
+    padding: 32px;
+    border-radius: 28px;
+    background: rgba(13, 26, 43, 0.92);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .result-info h2 {
     font-family: 'Outfit', sans-serif;
-    font-size: 28px;
+    font-size: 32px;
     margin: 0;
+    color: var(--blue-accent);
+}
+
+#result-dist {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin: 8px 0;
+}
+
+.learning-info {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 16px;
+    border-radius: 16px;
+    border-left: 4px solid var(--blue-accent);
+}
+
+.learning-info p {
+    margin: 0;
+    font-style: italic;
+    color: #cbd5e1;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 /* Animations & Glassmorphism */
