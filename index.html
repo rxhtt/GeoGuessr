@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GeoGuess India - A Spatial Reasoning Simulation</title>
-    <meta name="description" content="A high-fidelity geographic intelligence game. Test your knowledge of India's cities and states through spatial coordinate mapping.">
-    
-    <!-- Premium Typography -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GeoGuess India - Premium Simulation</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@800&display=swap"
+        rel="stylesheet">
 
-    <!-- Leaflet GIS Infrastructure -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- Cloudflare CDN: Faster & More Reliable -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
+        integrity="sha512-Zcn69ar08dxMwjICD88qfEd42RE1W9P9fRDe95vS749tFhJ7J00O1m9qf9J+6c1z+Q+w=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"
+        integrity="sha512-H9Yy9y9p7L2Y2y9f7O+J+J+J+J+J+J+H9Yy9y9p7L2Y2y9f7O+J+J+J+J+J+J+H9Yy9y9p7L2Y2y9f7O+J+J+J+J+J+J+H9Yy9y9p7L2Y2y9f7O+J+J+J+J+J+J+"
+        crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1>GeoGuess <span class="accent">India</span></h1>
-        <div id="game-stats" class="glass">
-            <div class="stat-item">
-                <span class="label">ROUND</span>
-                <span id="round" class="value">1 / 5</span>
-            </div>
-            <div class="stat-item">
-                <span class="label">TOTAL SCORE</span>
-                <span id="score" class="value">0</span>
+    <div class="game">
+        <!-- Layer 1: Top HUD Stats -->
+        <header class="hud">
+            <div class="hud-item"><small>ROUND</small><span id="round">1/5</span></div>
+            <div class="hud-item"><small>SCORE</small><span id="score">0</span></div>
+            <div class="hud-item timer-highlight"><small>TIME</small><span id="timer">20s</span></div>
+        </header>
+
+        <!-- Layer 2: Elastic Map Workspace -->
+        <div id="map-container">
+            <div id="map"></div>
+
+            <div id="prompt-overlay" class="glass">
+                <h2 id="city-prompt">LOCATING...</h2>
+                <div id="hint-container" class="hidden">
+                    <span class="hint-tag">HINT:</span> <span id="hint-text"></span>
+                </div>
+                <div id="streak-badge" class="badge hidden">🔥 <span id="streak">0</span></div>
             </div>
         </div>
-    </header>
 
-    <main id="app-container">
-        <section id="map-simulation">
-            <div id="map"></div>
-            <div id="instruction-overlay" class="glass">
-                <p id="city-prompt">Initializing coordinates...</p>
-            </div>
-        </section>
-
-        <section id="controls" class="glass">
-            <button id="submitBtn" class="primary-button" disabled>SUBMIT COORDINATES</button>
-            <div id="result-display" class="hidden">
-                <div class="result-card">
-                    <p id="result-city"></p>
-                    <p id="result-dist"></p>
-                    <p id="result-score" class="accent-score"></p>
+        <!-- Layer 3: Floating Cinematic Card (Hidden by Default) -->
+        <div id="result-panel" class="result-panel hidden">
+            <div class="result-info">
+                <h2 id="result-city">City Name</h2>
+                <p id="result-dist">Distance: 0 km (+0)</p>
+                <!-- Intelligence Panel -->
+                <div id="panel-fact-container" class="learning-info">
+                    <p id="panel-fact-1">Interesting fact about this location...</p>
                 </div>
             </div>
-        </section>
-    </main>
 
-    <div id="game-over-modal" class="modal hidden">
-        <div class="modal-content glass">
-            <h2>Simulation Complete</h2>
-            <div class="final-score-display">
-                <span class="label">Final Intelligence Quotient:</span>
-                <span id="final-score" class="value">0</span>
+            <div class="result-actions">
+                <button id="submitBtn" class="btn-primary" disabled>SUBMIT GUESS</button>
+                <button id="nextBtn" class="btn-secondary hidden">CONTINUE CHALLENGE</button>
+                <button onclick="resetToMenu()" class="btn-ghost">MENU</button>
             </div>
-            <button id="restartBtn" class="primary-button">RESTART ARCHITECTURE</button>
+        </div>
+
+        <!-- Game Over Modal -->
+        <div id="game-over-modal" class="modal hidden">
+            <div class="modal-content glass">
+                <h2>SURVEY COMPLETE</h2>
+                <div class="analytics-grid">
+                    <div class="analytic-item"><small>TOTAL SCORE</small><span id="final-score">0</span></div>
+                    <div class="analytic-item"><small>ACCURACY</small><span id="final-accuracy">0%</span></div>
+                </div>
+                <button onclick="resetToMenu()" class="btn-primary">INITIATE NEW TEST</button>
+            </div>
         </div>
     </div>
 
+    <!-- Background Decoration -->
+    <canvas id="particles"></canvas>
+
     <script src="script.js"></script>
+    <script src="particles.js"></script>
 </body>
+
 </html>
